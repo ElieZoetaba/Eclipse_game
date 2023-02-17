@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Eclipse</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.ico "/>
+</head>
+<body>
+<!-- Placar -->
+<p id="txtScore">SCORE: 0</p>
+
+<!-- Modal/GameOver -->
+<div class="modal" id="gameOverModal">
+	<div id="gameOverContainer">
+		<h2>GAME OVER</h2>
+		<hr>
+		<h1 id="gameOverScore">0</h1>
+		<p>YOUR SCORE</p>
+		<button id="btnNewGame">NEW GAME</button>
+	</div>
+</div>
+
+<!-- Modal/Tela de Inicio -->
+<div class="modal" id="startModal">
+	<div id="startContainer">
+		<h1 id="title">ECLIPSE</h1>
+	</div>
+</div>
+
+<!-- Sound/audio -->
+<audio src="./snd/game.mp3" loop id="musicGame"></audio>
+<audio src="./snd/shooting.mp3"></audio>
+<audio src="./snd/explosion.ogg"></audio>
+
+<!-- Tela -->
+<canvas></canvas>
+
+
+
+
+	<script src="js/classes.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
+
+<!--
+    Autor: Zoetaba W. Elie
+    Email: zoetabaelie@gmail.com
+    Github: ElieZoetaba
+-->
